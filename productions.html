@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="with=device-width, initial-scale=1. 0">
+   <title>AuditionMe - Easiest Way</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+		 
+</head>
+	<body style="background-color: black;">
+  <!-- Your content here -->
+</body>
+
+<body>
+<section class="sub-header">
+      <nav>
+           <a href="index.html"><img alt="" src="images/logo.png"></a>
+           <div class="nav-links" id="navLinks"> 
+      <i class="fa fa-window-close" onClick="hideMenu()"></i>
+       <ul>
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="productions.html">PRODUCTIONS</a></li>
+         <li><a href="Find job.html">FIND JOB</a></li>
+         <li><a href="workshops.html">WORKSHOPS</a></li>
+         <li><a href="">CONTACT</a></li>
+         <li><a href="about.html">ABOUT</a></li>
+           </ul>	   
+	      </div>
+          <i class="fa fa-bars" onClick="showMenu()"></i>
+      </nav>
+       <h1>PRODUCTIONS</h1>
+				
+</section>
+	
+	<section class="productions-section">
+		
+    <div class="productions-container">
+        <h1 class="section-title">Current & Upcoming Productions</h1>
+        <p class="section-subtitle">Discover exciting opportunities in Sri Lankan theatre, film, and television. Join our productions and showcase your talent!</p>
+        
+        <div class="search-filter-section">
+            <div style="text-align: center;">
+                <input type="text" class="search-box" placeholder="Search productions by title, genre, or director..." id="searchBox">
+            </div>
+            
+            <div class="filter-tabs">
+                <div class="filter-tab active" data-filter="all">All Productions</div>
+                <div class="filter-tab" data-filter="drama">Stage Drama</div>
+                <div class="filter-tab" data-filter="comedy">Films</div>
+                <div class="filter-tab" data-filter="musical">Commercials</div>
+                <div class="filter-tab" data-filter="thriller">Voiceover</div>
+                <div class="filter-tab" data-filter="film">TV program</div>
+            </div>
+        </div>
+
+        <div class="productions-grid">
+            <div class="production-card" data-category="drama">
+                <div class="production-image drama">
+					 <img src="images/production7.jpg" alt="Shadows of Colombo Production Still" width="400">
+                    <div class="production-status status-casting">Casting Open</div>
+                </div>
+                <div class="production-title">
+                    <h3>Shadows of Colombo</h3>
+                    <span class="production-genre">Films&nbsp;</span>
+                    <div class="production-date">Screening: March 2026</div>
+                </div>
+            </div>
+
+            <div class="production-card" data-category="comedy">
+                <div class="production-image comedy">
+					<img src="images/production8.jpg" alt="Shadows of Colombo Production Still" width="400">
+                    <div class="production-status status-upcoming">Upcoming</div>
+                </div>
+                <div class="production-title">
+                    <h3>TEMPORAL&nbsp;</h3>
+                    <span class="production-genre">Films&nbsp;</span>
+                    <div class="production-date">Auditions: April 2024</div>
+                </div>
+            </div>
+			 <div class="production-card" data-category="musical">
+                <div class="production-image musical">
+					<img src="images/Penthouse.jpg" alt="Shadows of Colombo Production Still" width="400">
+                    <div class="production-status status-casting">Casting Open</div>
+                </div>
+                <div class="production-title">
+                    <h3>Pentagon&nbsp;</h3>
+                    <span class="production-genre">Voiceover&nbsp; &nbsp;</span>
+                    <div class="production-date">Auditions: March 2024</div>
+                </div>
+            </div>
+
+            <div class="production-card" data-category="thriller">
+                <div class="production-image thriller">
+					<img src="images/production1.png" alt="Shadows of Colombo Production Still" width="400">
+                    <div class="production-status status-completed">Completed</div>
+                </div>
+                <div class="production-title">
+                    <h3>What a wonderful day&nbsp;</h3>
+                    <span class="production-genre">Stage Drama&nbsp;</span>
+                    <div class="production-date">Completed: February 2024</div>
+                </div>
+            </div>
+
+            <div class="production-card" data-category="film">
+                <div class="production-image classic">
+					<img src="images/production10.jpg" alt="Shadows of Colombo Production Still" width="400">
+                    <div class="production-status status-casting">Casting Open</div>
+                </div>
+                <div class="production-title">
+                    <h3>RIZANA&nbsp;</h3>
+                    <span class="production-genre">Films</span>
+                    <div class="production-date">Auditions: March 2024</div>
+                </div>
+            </div>
+
+            <div class="production-card" data-category="drama">
+                <div class="production-image experimental">
+					<img src="images/production9.jpg" alt="Shadows of Colombo Production Still" width="400">
+                    <div class="production-status status-upcoming">Upcoming</div>
+                </div>
+                <div class="production-title">
+                    <h3>Honeymoon&nbsp;</h3>
+                    <span class="production-genre">TV program&nbsp;&nbsp;</span>
+                    <div class="production-date">Auditions: May 2024</div>
+                </div>
+            </div>
+
+            <div class="production-card" data-category="comedy">
+                <div class="production-image comedy">
+					<img src="images/production6.jpg" alt="Shadows of Colombo Production Still" width="400">
+                    <div class="production-status status-casting">Casting Open</div>
+                </div>
+                <div class="production-title">
+                    <h3>Ruwanda&nbsp;</h3>
+                    <span class="production-genre">Stage drama&nbsp;</span>
+                    <div class="production-date">Auditions: March 2024</div>
+                </div>
+            </div>
+
+            <div class="production-card" data-category="musical">
+                <div class="production-image musical">
+					<img src="images/production4.png" alt="Shadows of Colombo Production Still" width="500">
+                    <div class="production-status status-upcoming">Upcoming</div>
+                </div>
+                <div class="production-title">
+                    <h3>PING&nbsp;</h3>
+                    <span class="production-genre">Stage drama&nbsp;</span>
+                    <div class="production-date">Auditions: April 2024</div>
+                </div>
+            </div>
+
+            <div class="production-card" data-category="film">
+                <div class="production-image drama">
+					<img src="images/production12.jpg" alt="Shadows of Colombo Production Still" width="400">
+                    <div class="production-status status-casting">Casting Open</div>
+                </div>
+                <div class="production-title">
+                    <h3>Consumation&nbsp;</h3>
+                    <span class="production-genre">Voiceover&nbsp;</span>
+                    <div class="production-date">Auditions: March 2024</div>
+                </div>
+            </div>
+
+            <div class="production-card" data-category="thriller">
+                <div class="production-image thriller">
+					<img src="images/productions 1.png" alt="Shadows of Colombo Production Still" width="400">
+                    <div class="production-status status-upcoming">Upcoming</div>
+                </div>
+                <div class="production-title">
+                    <h3>Dear Sincerely Children&nbsp;</h3>
+                    <span class="production-genre">Stage drama&nbsp;</span>
+                    <div class="production-date">Auditions: May 2024</div>
+                </div>
+            </div>
+			<div class="production-card" data-category="drama">
+                <div class="production-image classic">
+					<img src="images/production3.png" alt="Shadows of Colombo Production Still" width="400">
+                    <div class="production-status status-completed">Completed</div>
+                </div>
+                <div class="production-title">
+                    <h3>Pattern of our genocide&nbsp;</h3>
+                    <span class="production-genre">Stage Drama&nbsp;</span>
+                    <div class="production-date">Completed: January 2024</div>
+                </div>
+            </div>
+
+            <div class="production-card" data-category="film">
+                <div class="production-image experimental">
+					<img src="images/Production11.jpg" alt="Shadows of Colombo Production Still" width="400">
+                    <div class="production-status status-casting">Casting Open</div>
+                </div>
+                <div class="production-title">
+                    <h3>Misstress&nbsp;</h3>
+                    <span class="production-genre">Voiceover&nbsp;</span>
+                    <div class="production-date">Auditions: April 2024</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+	
+<!------------------footer----------->
+	<section class="footer">
+		<h4>ABOUT US</h4>
+	    <p>AuditionMe connects Sri Lankan talent with real opportunities in film, TV, stage, and more.<br>Whether you're new or experienced, this is your platform to be seen, discovered, and cast.</p>
+		
+	<div class="icons">
+		<i class="fa-brands fa-facebook"></i>
+		<i class="fa-brands fa-instagram"></i>
+		<i class="fa-brands fa-x-twitter"></i>
+		<i class="fa-brands fa-linkedin"></i>
+		</div>
+		<p>Made with <i class="fa-regular fa-heart"></i> through sleepless nights</p>
+	</section>
+	
+<!--------Javascript for toggle menu-------->
+	<script>
+	var navLinks = document.getElementById("navLinks");
+	var navLinks = document.getElementById("navLinks");
+		
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	
+	</script>
+</body>
+</html>

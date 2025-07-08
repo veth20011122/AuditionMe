@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="with=device-width, initial-scale=1. 0">
+   <title>AuditionMe - Easiest Way</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+		 
+</head>
+	<body style="background-color: black;">
+  <!-- Your content here -->
+</body>
+
+<body>
+<section class="sub-header">
+      <nav>
+           <a href="index.html"><img alt="" src="images/logo.png"></a>
+           <div class="nav-links" id="navLinks"> 
+      <i class="fa fa-window-close" onClick="hideMenu()"></i>
+       <ul>
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="productions.html">PRODUCTIONS</a></li>
+         <li><a href="Find job.html">FIND JOB</a></li>
+         <li><a href="workshops.html">WORKSHOPS</a></li>
+         <li><a href="">CONTACT</a></li>
+         <li><a href="about.html">ABOUT</a></li>
+           </ul>	   
+	      </div>
+          <i class="fa fa-bars" onClick="showMenu()"></i>
+      </nav>
+       <h2>BECOME A MEMBER</h2>
+				
+</section>
+<div class="signup-container">
+        <form class="signup-form">
+            <h2>Create Your Account</h2>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="firstName">First Name *</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name *</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+            </div>
+			<div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="age">Age *</label>
+                    <input type="number" id="age" name="age" min="16" max="80" required>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender *</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="location">Location *</label>
+                <select id="location" name="location" required>
+                    <option value="">Select Location</option>
+                    <option value="colombo">Colombo</option>
+                    <option value="kandy">Kandy</option>
+                    <option value="galle">Galle</option>
+                    <option value="anuradhapura">Anuradhapura</option>
+                    <option value="jaffna">Jaffna</option>
+                    <option value="negombo">Negombo</option>
+                    <option value="batticaloa">Batticaloa</option>
+                    <option value="matara">Matara</option>
+                    <option value="kurunegala">Kurunegala</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+			<div class="form-group">
+                <label for="experience">Experience Level *</label>
+                <select id="experience" name="experience" required>
+                    <option value="">Select Experience Level</option>
+                    <option value="beginner">Beginner (0-1 years)</option>
+                    <option value="intermediate">Intermediate (2-5 years)</option>
+                    <option value="experienced">Experienced (5+ years)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="interests">Areas of Interest *</label>
+                <select id="interests" name="interests" required>
+                    <option value="">Select Primary Interest</option>
+                    <option value="film">Film & Cinema</option>
+                    <option value="tv">Television & Teledrama</option>
+                    <option value="stage">Stage & Theatre</option>
+                    <option value="voice">Voice & Dubbing</option>
+                    <option value="commercial">Commercials</option>
+                    <option value="modeling">Modeling</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="bio">Brief Bio (Optional)</label>
+                <textarea id="bio" name="bio" placeholder="Tell us about yourself, your experience, and what makes you unique..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password *</label>
+                <input type="password" id="password" name="password" required minlength="8">
+            </div>
+
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password *</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a> *</label>
+            </div>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Subscribe to our newsletter for casting updates and industry news</label>
+            </div>
+
+            <button type="submit" class="signup-btn">
+                <i class="fa-solid fa-user-plus"></i> Create Account
+            </button>
+
+            <div class="login-link">
+                Already have an account? <a href="login.html">Sign In</a>
+            </div>
+        </form>
+    </div>
+	
+<!------------------footer----------->
+	<section class="footer">
+		<h4>ABOUT US</h4>
+	    <p>AuditionMe connects Sri Lankan talent with real opportunities in film, TV, stage, and more.<br>Whether you're new or experienced, this is your platform to be seen, discovered, and cast.</p>
+		
+	<div class="icons">
+		<i class="fa-brands fa-facebook"></i>
+		<i class="fa-brands fa-instagram"></i>
+		<i class="fa-brands fa-x-twitter"></i>
+		<i class="fa-brands fa-linkedin"></i>
+		</div>
+		<p>Made with <i class="fa-regular fa-heart"></i> through sleepless nights</p>
+	</section>
+	
+<!--------Javascript for toggle menu-------->
+	<script>
+	var navLinks = document.getElementById("navLinks");
+	var navLinks = document.getElementById("navLinks");
+		
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	
+	</script>
+</body>
+</html>
